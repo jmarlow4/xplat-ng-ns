@@ -14,7 +14,18 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@xplat-ng-ns/xplat/core": ["libs/xplat/core/src/index.ts"],
+      "@xplat-ng-ns/xplat/environments": [
+        "libs/xplat/core/src/lib/environments/base/index.ts"
+      ],
+      "@xplat-ng-ns/xplat/features": ["libs/xplat/features/src/index.ts"],
+      "@xplat-ng-ns/xplat/utils": ["libs/xplat/utils/src/index.ts"],
+      "@xplat-ng-ns/xplat/web/core": ["libs/xplat/web/core/src/index.ts"],
+      "@xplat-ng-ns/xplat/web/features": [
+        "libs/xplat/web/features/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
